@@ -16,7 +16,7 @@ const User = sequelizeConnection.define('user', {
         type: Sequelize.STRING,
         allowNull: false,
         validate: {
-            len: [3, 26],
+            len: [3, 49],
         }
     },
 
@@ -24,7 +24,7 @@ const User = sequelizeConnection.define('user', {
         type: Sequelize.STRING,
         allowNull: false,
         validate: {
-            len: [5, 60]
+            len: [5, 49]
         }
     }
 
